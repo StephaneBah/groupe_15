@@ -5,3 +5,6 @@ Execution du code:
 python3 task_3/gui.py
 ```
 Assurez-vous de changer le path vers votre dossier clone dans ASSETS_PATH de gui.py
+```
+".../groupe_15/task_3/assets/frame0"
+```
