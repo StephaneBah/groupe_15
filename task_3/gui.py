@@ -9,11 +9,7 @@ import json
 import threading
 
 OUTPUT_PATH = Path(__file__).parent
-<<<<<<< HEAD
-ASSETS_PATH = OUTPUT_PATH / Path(r"/Users/HP\Downloads/Telegram Desktop/groupe_15-1/groupe_15/task_3/assets/frame0")
-=======
 ASSETS_PATH = OUTPUT_PATH / Path(r"/home/stef/Documents/Projet/Groupe15_R_Python_Avancé/groupe_15/task_3/assets/frame0")
->>>>>>> 82b64ff70ca0fea1bbc387ba2b5455a8f83d90b1
 PIPELINE_PATH = OUTPUT_PATH / "saved_pipeline"
 CONFIG_FILE = OUTPUT_PATH / "model_config.json"
 
@@ -78,7 +74,6 @@ def generate_image(prompt, width=319, height=329):
     image = image.resize((width, height))
     return ImageTk.PhotoImage(image)
 
-<<<<<<< HEAD
 spinner_running = False
 
 def animate_spinner(frame=0):
@@ -87,12 +82,6 @@ def animate_spinner(frame=0):
     frame = (frame + 1) % len(spinner_frames)
     spinner_label.config(image=spinner_frames[frame])
     spinner_label.image = spinner_frames[frame]  
-=======
-def animate_spinner(frame=0):
-    frame = (frame + 1) % len(spinner_frames)
-    spinner_label.config(image=spinner_frames[frame])
-    spinner_label.image = spinner_frames[frame]  # Sauvegarder une référence pour éviter que l'image soit garbage collectée
->>>>>>> 82b64ff70ca0fea1bbc387ba2b5455a8f83d90b1
     window.after(100, animate_spinner, frame)
 
 def on_click_button():
@@ -120,18 +109,11 @@ def generate_and_display_images():
     window.after(0, on_image_generated)
 
 def on_image_generated():
-<<<<<<< HEAD
     global spinner_running
     spinner_running = False  # Arrêter le spinner
     spinner_label.place_forget()  # Masquer le label du spinner
     button_1.place(x=454.0, y=92.0, width=86.0, height=35.0)
 
-
-=======
-    spinner_label.pack_forget()
-    button_1.place(x=454.0, y=92.0, width=86.0, height=35.0)
-
->>>>>>> 82b64ff70ca0fea1bbc387ba2b5455a8f83d90b1
 button_image_1 = PhotoImage(file=relative_to_assets("button_1.png"))
 button_1 = Button(image=button_image_1, borderwidth=0, highlightthickness=0, command=on_click_button, relief="flat")
 button_1.place(x=454.0, y=92.0, width=86.0, height=35.0)
