@@ -143,7 +143,6 @@ Nuage de points: A partir de la visualisation du nuage de point, on constate que
 2- Q. Alfred
 
 
-
 ## Task_3
 Execution du code:
 ```python
@@ -153,3 +152,6 @@ Assurez-vous de changer le path vers votre dossier clone dans ASSETS_PATH de gui
 ```
 ".../groupe_15/task_3/assets/frame0"
 ```
+
+
+## Pourcentages de chaque membres
