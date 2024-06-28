@@ -110,6 +110,7 @@ Nuage de points: A partir de la visualisation du nuage de point, on constate que
 
 
 Répartition des tâches:
+
 1- ALOWANOU Sèdami
 - Implémentation du code en python et R
 - Analyse des résultas obtenu
