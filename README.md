@@ -109,7 +109,7 @@ Histogramme: A partir de la visualisation de l'histogramme, nous constatons que 
 Nuage de points: A partir de la visualisation du nuage de point, on constate que les prix des maisons ne dépendent pas de leurs superficies car dans notre dataset des maisons ont mêmes superficies mais pas le même prix et aussi on remarque des points un peu isolé du groupement de points, ce qui nous laisse penser que d'autres facteurs que la surface peuvent également influencer le prix d'une maison, tels que l'emplacement, l'état de la maison, les équipements, etc.
 
 
-Répartition des tâches
+Répartition des tâches:
 1- ALOWANOU Sèdami
 - Implémentation du code en python et R
 - Analyse des résultas obtenu
