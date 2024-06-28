@@ -99,13 +99,21 @@ print(arr1.shape)  # Affiche (5,)
 
 ## Task_2
 Rapport de la tache deux
+
 Pour la réalisation de notre tâche, nous avons fait une analyse basique du dataset, pour la faire, nous avons d'abord importé quelques bibliothèques (pandas, numpy, matplotlib.pyplot), ensuite la dataset et utilisé quelques fonctions:
+
 1-head() en python et view() en R qui nous permet d'afficher les premières lignes de notre dataset.
+
 2-info() qui nous permet de fournir un résumé concis de notre dataset.
+
 3-describe() en python et summary() en R qui nous permet d'afficher un résumé du dataset avec des coefficients.
+
 4-isnull() en python et is.na() en R qui nous permet de vérifier s'il ya a des données manquantes dans notre dataset, pour être convaincu de son résultat, on a après vérifié par colonne avec (isnull().sum() en python et colSums(is.na()) en R).
+
 On a ensuite créé un histogramme et un nuage de points (en utilisant scatter plot) qu'on a après analysé en quelques phrases:
+
 Histogramme: A partir de la visualisation de l'histogramme, nous constatons que la majorité des maisons de notre dataset sont à trois chambres, nous avons aussi en moyenne des maisons à deux chambres et une minorité de maisons à quatre chambres. Le reste des maisons à cinq, six chambres sont en faible minorité.
+
 Nuage de points: A partir de la visualisation du nuage de point, on constate que les prix des maisons ne dépendent pas de leurs superficies car dans notre dataset des maisons ont mêmes superficies mais pas le même prix et aussi on remarque des points un peu isolé du groupement de points, ce qui nous laisse penser que d'autres facteurs que la surface peuvent également influencer le prix d'une maison, tels que l'emplacement, l'état de la maison, les équipements, etc.
 
 
