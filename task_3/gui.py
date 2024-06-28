@@ -74,6 +74,7 @@ def generate_image(prompt, width=319, height=329):
     image = image.resize((width, height))
     return ImageTk.PhotoImage(image)
 
+<<<<<<< HEAD
 spinner_running = False
 
 def animate_spinner(frame=0):
@@ -82,6 +83,12 @@ def animate_spinner(frame=0):
     frame = (frame + 1) % len(spinner_frames)
     spinner_label.config(image=spinner_frames[frame])
     spinner_label.image = spinner_frames[frame]  
+=======
+def animate_spinner(frame=0):
+    frame = (frame + 1) % len(spinner_frames)
+    spinner_label.config(image=spinner_frames[frame])
+    spinner_label.image = spinner_frames[frame]  # Sauvegarder une référence pour éviter que l'image soit garbage collectée
+>>>>>>> 82b64ff70ca0fea1bbc387ba2b5455a8f83d90b1
     window.after(100, animate_spinner, frame)
 
 def on_click_button():
