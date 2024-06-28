@@ -1,1 +1,3 @@
-tkinter
+tkinter 
+diffusers 
+pillow
