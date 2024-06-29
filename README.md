@@ -142,6 +142,10 @@ Nuage de points: A partir de la visualisation du nuage de point, on constate que
 
 
 ## Task_3
+Requirements
+```python
+python3 requirements.py
+```
 Execution du code:
 ```python
 python3 task_3/gui.py
