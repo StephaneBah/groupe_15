@@ -138,7 +138,7 @@ Nuage de points: A partir de la visualisation du nuage de point, on constate que
 - Implémentation du code en python et R
 - Analyse des résultas obtenu
 
-2. Q. Alfred
+2. QUENUM Alfred
 
 
 ## Task_3
@@ -150,6 +150,22 @@ Assurez-vous de changer le path vers votre dossier clone dans ASSETS_PATH de gui
 ```
 ".../groupe_15/task_3/assets/frame0"
 ```
-
+Envie de changer de modèle? 
+Un petit changement de nom dans la variable **current_model_name** à la ligne 20 de gui.py
+### Déroulement des Travaux
+Détaillé dans:
+```
+.../groupe_15/task_3/Rapport_Task_3.docx
+```
 
 ## Pourcentages de chaque membres
+1. SODJINOU Isis: **10%**
+2. GNACADJA Laurinda: **10%**
+3. AHO-GLELE Liz: **10%**
+4. WABI Youmna: **10%**
+5. ALOWANOU Sèdami: **10%**
+6. Q. Alfred: **4%**
+7. AHOLOU-BAH Stéphane: **20%**
+8. TCHEKPO Inès: **15%**
+9. LIMA Marie-Paule: **10%**
+10. DANSOU Ghislain: **1%**
