@@ -168,8 +168,8 @@ Détaillé dans:
 3. AHO-GLELE Liz: **10%**
 4. WABI Youmna: **10%**
 5. ALOWANOU Sèdami: **10%**
-6. Q. Alfred: **4%**
-7. AHOLOU-BAH Stéphane: **20%**
+6. QUENUM Alfred: **4%**
+7. AHOLOU-BAH Stéphane: **15%**
 8. TCHEKPO Inès: **15%**
 9. LIMA Marie-Paule: **10%**
-10. DANSOU Ghislain: **1%**
+10. DANSOU Ghislain: **6%**
