@@ -1,3 +1,0 @@
-tkinter 
-diffusers 
-pillow
