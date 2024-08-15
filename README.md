@@ -20,27 +20,7 @@ La classe Array est conçue pour manipuler des listes d'entiers (1D ou 2D) avec 
 13. __len__ : Retourne la longueur du tableau (1D uniquement).
 14. shape : Retourne la forme du tableau.
 
-### Répartition des tâches
-La répartition des tâches pour l'implémentation et les tests de cette classe est organisée comme suit :
-1. SODJINOU Isis
-    - Implémente les méthodes __init__ et _get_shape pour gérer la création d'un tableau et déterminer sa forme.
-    - Ajoute les méthodes __repr__ et __str__ pour fournir des représentations en chaîne de caractères de l'objet Array.
-
-2. GNACADJA Laurinda
-    - Développe les méthodes pour les opérations scalaires (__matmul__, __contains__).
-    - Ajoute l'indexation et le slicing avec les méthodes __getitem__ et __setitem__.
-    - Implémente la méthode __len__ pour obtenir la longueur du tableau.
-  
-3. AHO-GLELE Liz
-     - Développe les méthodes __add__ et __sub__ pour l'addition et la soustraction des tableaux.
-     - Implémente la méthode _get_shape pour déterminer la forme d'un tableau.
-
-4. WABI Youmna
-    - Gère les fonctionnalités de multiplication et de division (__mul__, __truediv__).
-    - Gère les exceptions pour les différents types d'erreurs (e.g., TypeError, ValueError, ZeroDivisionError).
-
 ### Tests
-Les tests suivants ont été effectués pour vérifier le bon fonctionnement de la classe Array :
 #### Initialisation
 ```python
 arr1 = Array([1, 2, 3, 4, 5])
@@ -112,35 +92,6 @@ print(len(arr1))   # Affiche 5
 print(arr1.shape)  # Affiche (5,)
 ```
 
-
-## Task_2
-### Rapport de la tâche 2
-
-Pour la réalisation de notre tâche, nous avons fait une analyse basique du dataset, pour la faire, nous avons d'abord importé quelques bibliothèques (pandas, numpy, matplotlib.pyplot), ensuite la dataset et utilisé quelques fonctions:
-
-1-head() en python et view() en R qui nous permet d'afficher les premières lignes de notre dataset.
-
-2-info() qui nous permet de fournir un résumé concis de notre dataset.
-
-3-describe() en python et summary() en R qui nous permet d'afficher un résumé du dataset avec des coefficients.
-
-4-isnull() en python et is.na() en R qui nous permet de vérifier s'il ya a des données manquantes dans notre dataset, pour être convaincu de son résultat, on a après vérifié par colonne avec (isnull().sum() en python et colSums(is.na()) en R).
-
-On a ensuite créé un histogramme et un nuage de points (en utilisant scatter plot) qu'on a après analysé en quelques phrases:
-
-Histogramme: A partir de la visualisation de l'histogramme, nous constatons que la majorité des maisons de notre dataset sont à trois chambres, nous avons aussi en moyenne des maisons à deux chambres et une minorité de maisons à quatre chambres. Le reste des maisons à cinq, six chambres sont en faible minorité.
-
-Nuage de points: A partir de la visualisation du nuage de point, on constate que les prix des maisons ne dépendent pas de leurs superficies car dans notre dataset des maisons ont mêmes superficies mais pas le même prix et aussi on remarque des points un peu isolé du groupement de points, ce qui nous laisse penser que d'autres facteurs que la surface peuvent également influencer le prix d'une maison, tels que l'emplacement, l'état de la maison, les équipements, etc.
-
-### Répartition des tâches:
-
-1. ALOWANOU Sèdami
-- Implémentation du code en python et R
-- Analyse des résultas obtenu
-
-2. QUENUM Alfred
-
-
 ## Task_3
 Requirements
 ```python
@@ -156,20 +107,3 @@ Assurez-vous de changer le path vers votre dossier clone dans ASSETS_PATH de gui
 ```
 Envie de changer de modèle? 
 Un petit changement de nom dans la variable **current_model_name** à la ligne 20 de gui.py
-### Déroulement des Travaux
-Détaillé dans:
-```
-.../groupe_15/task_3/Rapport_Task_3.docx
-```
-
-## Pourcentages de chaque membres
-1. SODJINOU Isis: **10%**
-2. GNACADJA Laurinda: **10%**
-3. AHO-GLELE Liz: **10%**
-4. WABI Youmna: **10%**
-5. ALOWANOU Sèdami: **10%**
-6. QUENUM Alfred: **4%**
-7. AHOLOU-BAH Stéphane: **15%**
-8. TCHEKPO Inès: **15%**
-9. LIMA Marie-Paule: **10%**
-10. DANSOU Ghislain: **6%**
